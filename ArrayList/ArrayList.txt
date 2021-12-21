@@ -1,0 +1,6 @@
+ArrayLsit <Type> arrayListName = new ArrayList<> ();
+
+
+Here <Type> is known as genrics by using this we can spesifiy a spesific type of the arrayList
+
+we can also use arraylist without <Type>

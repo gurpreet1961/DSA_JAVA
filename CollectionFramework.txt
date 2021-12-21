@@ -1,0 +1,128 @@
+  
+                                collection 
+                                    ^
+                                    :
+                                    :
+                        ----------------------------
+                        ^             ^           ^
+                        :             :           :         
+                        :             :           :
+                        :             :           :
+                        :             :           :
+                        List         set         queue
+                                        ^           ^
+                                        :           :
+                                        :           :
+                                        :           :
+                                    SortedSet      Deque 
+
+                                
+======================================================================================================================================================================================================
+
+
+                                Map          Iterator
+                                ^               ^
+                                :               :   
+                                :               :
+                                :               :
+                            SortedMap      ListIterator   
+
+
+Collection Interface: It is the root Interface of collection framework hierarchy.
+
+=========================================================================================================================================================================================================
+
+Java does not provide  direct implementation of the Collection Interface but provides implementation of it's subinterface like list , set, and queue.
+
+==========================================================================================================================================================================================================
+
+
+Methods of Collection: add(), size(), remove(), iterator(), addAll(), removeAll(), clear()
+
+==========================================================================================================================================================================================================
+
+List Interface:
+It is an ordered collection that allows us to store and acces elements sequentially.
+It extends the collection interface.
+
+As it is an interface we cannot create objects from it. In order to use functionalities of the list interface, we can use:
+ArrayList
+LinkedList
+Vector
+Stack
+
+                                  List
+                                    ^
+                                    |
+                                    | (implementation)
+                                    |
+    -------------------------------------------------------------                    |                      |                  |                 |   
+    |                      |                  |                 |
+    |                      |                  |                 |
+ArrayList               LinkedList          Stack            Vector
+
+
+======================================================================================================================================================================================================
+
+Set Interface:
+It is java collection framework provides the feature of the mathematical set in java.
+It extends the collection interface. Unlike the list interface, set cannot duplicate elements.
+
+To use Set interface we can use these classes:
+
+HashSet 
+LinkedHashSet
+Enumset
+TreeSet
+
+
+                                   Set
+                                    ^
+                                    |
+                                    | (implements)
+                                    |
+    -------------------------------------------------------------                    |                      |                  |                 |   
+    |                      |                  |                 |
+    |                      |                  |                 |
+Enumset                 HashSet          LinkedHashSet        TreeSet
+
+
+
+======================================================================================================================================================================================================
+
+
+Queue Interface:
+
+It provides the functionalitiy of the data structure. It extends the collection interface. (FIFO)
+
+We need to use class that implement it:
+ArrayDeque
+LinkedList
+PriorityQueue
+
+
+                                  Queue
+                                    ^
+                                    |
+                                    | (implementation)
+                                    |
+            -------------------------------------------                 |                      |                  |        
+            |                      |                  |                            |                      |                  |                           
+        ArrayDeque               LinkedList       PriorityQueue    
+
+======================================================================================================================================================================================================
+
+
+Map Interface:
+It provides the functionality of the map data structure. (key,value)
+since map is a interface we cann't create the  object from it 
+we need to use these classes:
+
+HashMap
+EnumMap
+LinkedListMap
+WeakHashAap
+TreeMap
+
+
+======================================================================================================================================================================================================

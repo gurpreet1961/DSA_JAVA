@@ -1,0 +1,32 @@
+In this element are in the sequence form.
+But the memory allocation of the element is not conttiguous location.
+
+Like in array starting element address is 2002 and there is 4 bit then 2002, 2006,2010
+But in LikedList 2008,4096,3052,2928
+
+
+If in array be wants to get the element of 2nd index then array knows that first element is at first index at address 2002 then it do 2002 + (2 * 4) = 2010 = a[2].
+
+But in linked list we can't access element directly because all the element are of diffrent location. So When we create linkedlist with data we also store address of next element. 
+
+Node =  (data,address of next data); //but in java we don;t use address we use refrence
+
+so if we want element at 2nd index then it will check the first index and get the address of next element and again repeat this step until it reaches index 2.
+
+first element is called  head.
+
+Advantage:
+
+1.Insertion:
+In array we want to insert element at 1st index.Then we need to move all the element 1 index forward.
+But in linkedList can store element at any address and provide the reference to it prev data element and take the address of the next element.
+
+2.Deletion:
+If want to delete element at 1st index then we have to shift all element 1 step backward.
+But in linked list we just take the address of next node from deleted node and change the the next address of prev node of the deleted node with that address.
+
+
+
+Disadvatage:
+1. Iterarion: 
+We need to itreate througe all the element.

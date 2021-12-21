@@ -1,0 +1,20 @@
+Queue: the queue interface of the java collections framework provides the functionality of the queue data structure
+
+It extends the Collection interface 
+
+For queue we need to use class that implement it:
+1. ArrayDeque
+2. LinkedList
+3. PriorityQueue
+
+
+FIFO: First In First Out.
+
+Added from behend And Remove From Front.
+
+
+Method's
+
+add(), remove(), element() => these all can through Exception
+
+offer(), poll(), peek() => these will return false /null 

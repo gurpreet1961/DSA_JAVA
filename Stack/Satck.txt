@@ -1,0 +1,23 @@
+                                     VERY IMPORTANT
+
+First-In-First-Out
+Addtion: on top;
+Deletion: from top; 
+ 
+
+                    Collection
+                        ^
+                        |
+                        | extends
+                        |
+                       List
+                        ^
+                        |
+                        | Implemnts
+                        |
+                      Vector
+                        ^
+                        |
+                        | etends
+                        |
+                      Stack

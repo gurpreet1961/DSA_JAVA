@@ -1,0 +1,35 @@
+ArrayDeque:
+Also know as an "Array Double Ended Queue" pronuounced as "ArrayDeque"
+It allow us to add and remove from both sides.
+
+It can use to implement 
+Stack(LIFO)
+Queue(FIFO)
+
+
+
+
+
+                    extends             extends
+      collectiion <---------- Queue <------------- Deque
+                                ^                    ^
+                                |                    |  
+                                |      implement     |
+                                |____________________|
+                                            |
+                                            |
+                                            |
+                                        ArrayDeque     
+
+
+
+Function:
+
+    OPERATION              METHOD         METHOD THORW EXCEPTION
+                     
+1. Insert from Head    =  offerFirst(e)   or   addFirst(e)
+2. Removal from Head   =  pollFirst()     or   removeFirst()
+3. Retrieval from Head =  peekFirst()     or   getFirst()
+4. Insert from Tail    =  offerLast(e)    or   addLast(e)
+5. Removal from Tail   =  pollLast()      or   removeLast()
+6. Retrieval from Tail =  peekLast()      or   getLast()

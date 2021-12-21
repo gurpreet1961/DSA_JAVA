@@ -1,0 +1,5 @@
+Vector: It is an implementation of the list that allows us to create resizable- arrays similar to the arrayList.
+Vector class is sychronizes each inndividual opertion. This mean whenever we want to perform some operttion on vector class automatically applies a lock to that opertion.
+
+Note: it is recommended to use Vector over the ArrayKist veacuse arrayList are not thread safe and are less efficient
+

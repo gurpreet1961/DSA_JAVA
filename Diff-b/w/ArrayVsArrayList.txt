@@ -1,0 +1,4 @@
+Array:
+int a[] = new int[10] ---> fixed size
+ArrayList --> resizable Array (incress the size by size * 1.5)
+So that is ArrayList is also known as dynamic Array

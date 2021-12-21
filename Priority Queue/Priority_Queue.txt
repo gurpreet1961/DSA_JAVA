@@ -1,0 +1,28 @@
+A priority queue is a special type of queue in which each element is associated with
+a priority and is served according to its priority. If element with the same priority
+occur, they are served according to their order in the queue.
+
+
+
+In a queue, the first-in-first-out rule is implemented whereas, in a priority
+queue, the values are removed on the basis of priority. The element with the highest priority
+is removed first.
+
+                            Collection 
+                                ^
+                                |
+                                |  extends
+                                |
+                              Queue 
+                                ^
+                                |
+                                |   implements
+                                |
+                            priorityQueue       
+
+
+Method:
+
+1. Add
+2. remove
+3. element

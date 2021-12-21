@@ -1,0 +1,24 @@
+1. Both implements the list interface and provides  the same functionlities.
+2. Both are dynamic Array.
+
+
+Diff:
+
+1. Arralist size will incress by * 1.5 and vector size will incress by * 2.
+2. All the  function in Vector implementation are syncr.  That will help in making code thread safe
+
+
+JUST FOR UNDERSTANDING:{
+    if we have one core: 2*3*5*7 here firstly 2*3 than result will multiply with next number.
+    But If we have dule core: than they will divide this in 2*3 and 5*7 and at last multiply both the result. 
+}
+
+Example of Syncro: {
+    Let If two add opertion are done both at the same time then without help of sync. it will some time give priority to the first number some time to the 2nd number.
+
+    But with help of sync. we can add a type of lock to the add opertion so that until and unless first add opertion is not done 2nd add opertion will not perform. (synchrinized add(5);)
+}
+
+Disadvantage of synchrinion is that if we are not using threads then there will not any benifit of it. Insted of the advantage it will give Disadvantage that it will take more time.
+
+Another disadvantage of it is that it double the size of vector which will nitt make it as memory efficent as compare to the array list.
